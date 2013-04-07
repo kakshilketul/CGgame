@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:YES];
-     [[UIApplication sharedApplication] setStatusBarHidden:YES];
+     //[[UIApplication sharedApplication] setStatusBarHidden:YES];
     //configure carousel
     carousel1.type = iCarouselTypeCoverFlow2;
     carousel2.type = iCarouselTypeCoverFlow2;
@@ -57,7 +57,7 @@
 
 - (NSUInteger)numberOfItemsInCarousel:(iCarousel *)carousel
 {
-    return 11;
+    return 10;
 }
 
 - (UIView *)carousel:(iCarousel *)carousel viewForItemAtIndex:(NSUInteger)index reusingView:(UIView *)view
@@ -106,11 +106,13 @@
                              completion:^{
                                  a = index;
                                  x = true;
+                                 [carousel1 removeFromSuperview];
+
                                  if (y == true) {
+                                     
                                      [self performSegueWithIdentifier:@"MainSegue" sender:nil];
                                  }
                              }];
-                        [carousel1 removeFromSuperview];
 
     }
     else
@@ -122,13 +124,14 @@
                              completion:^{
                                  b = index;
                                  y = true;
+                                 [carousel2 removeFromSuperview];
+
                                  if (x==true) {
                                      [self performSegueWithIdentifier:@"MainSegue" sender:nil];
 
                                  }
 
                              }];
-        [carousel2 removeFromSuperview];
     }
 }
 

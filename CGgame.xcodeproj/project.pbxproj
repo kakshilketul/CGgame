@@ -32,7 +32,6 @@
 		9E892594170C90B300589502 /* CGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E892593170C90B300589502 /* CGViewController.m */; };
 		9E8925A5170C912C00589502 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8925A4170C912C00589502 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9E8925AA170C993400589502 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8925A9170C993400589502 /* QuartzCore.framework */; };
-		9ED040DA170F6C2F00366AE4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ED040D9170F6C2F00366AE4 /* background.png */; };
 		9ED040DE170F6FF500366AE4 /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED040DD170F6FF500366AE4 /* UIView+Genie.m */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +68,6 @@
 		9E8925A4170C912C00589502 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		9E8925A6170C951200589502 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = ../CGgame/iCarousel.h; sourceTree = "<group>"; };
 		9E8925A9170C993400589502 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9ED040D9170F6C2F00366AE4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		9ED040DC170F6FF500366AE4 /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
 		9ED040DD170F6FF500366AE4 /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,7 +107,6 @@
 		9E892565170C90B300589502 = {
 			isa = PBXGroup;
 			children = (
-				9E8925A9170C993400589502 /* QuartzCore.framework */,
 				9E89257A170C90B300589502 /* CGgame */,
 				9E892573170C90B300589502 /* Frameworks */,
 				9E892571170C90B300589502 /* Products */,
@@ -127,6 +124,7 @@
 		9E892573170C90B300589502 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E8925A9170C993400589502 /* QuartzCore.framework */,
 				9E892574170C90B300589502 /* UIKit.framework */,
 				9E892576170C90B300589502 /* Foundation.framework */,
 				9E892578170C90B300589502 /* CoreGraphics.framework */,
@@ -143,7 +141,6 @@
 				9E89258C170C90B300589502 /* MainStoryboard_iPhone.storyboard */,
 				9E89258F170C90B300589502 /* MainStoryboard_iPad.storyboard */,
 				9E892592170C90B300589502 /* CGViewController.h */,
-				9ED040D9170F6C2F00366AE4 /* background.png */,
 				9E892593170C90B300589502 /* CGViewController.m */,
 				1856456B171137D3009E853D /* MainViewController.h */,
 				1856456C171137D4009E853D /* MainViewController.m */,
@@ -237,7 +234,6 @@
 				9E89258B170C90B300589502 /* Default-568h@2x.png in Resources */,
 				9E89258E170C90B300589502 /* MainStoryboard_iPhone.storyboard in Resources */,
 				9E892591170C90B300589502 /* MainStoryboard_iPad.storyboard in Resources */,
-				9ED040DA170F6C2F00366AE4 /* background.png in Resources */,
 				1856455D17113087009E853D /* 0.png in Resources */,
 				1856456017113087009E853D /* 3.png in Resources */,
 				1856456117113087009E853D /* 4.png in Resources */,
